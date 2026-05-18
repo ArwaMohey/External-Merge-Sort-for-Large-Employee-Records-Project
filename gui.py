@@ -7,6 +7,7 @@ import subprocess
 import sys
 import threading
 import time
+import traceback
 from tkinter import messagebox, ttk
 from typing import Callable, List, Tuple
 
@@ -238,6 +239,7 @@ class ExternalMergeSortGUI(ctk.CTk):
             except Exception as exc:  # noqa: BLE001
                 ok = False
                 self.log_queue.put(f"[ERROR] Unexpected {type(exc).__name__}: {exc}")
+                self.log_queue.put(traceback.format_exc())
 
             elapsed = time.time() - start
             self.after(0, self._finish_run, title, ok, elapsed)
@@ -334,10 +336,10 @@ class ExternalMergeSortGUI(ctk.CTk):
             messagebox.showwarning("File Not Found", "Run Phase 2 Merge first to create the final output file.")
             return
         try:
-            is_outside = os.path.commonpath([safe_root, safe_path]) != safe_root
+            is_inside = os.path.commonpath([safe_root, safe_path]) == safe_root
         except ValueError:
-            is_outside = True
-        if is_outside:
+            is_inside = False
+        if not is_inside:
             messagebox.showerror("Invalid Path", "Resolved output path is outside the expected output directory.")
             return
 
@@ -345,9 +347,9 @@ class ExternalMergeSortGUI(ctk.CTk):
             if sys.platform.startswith("win"):
                 os.startfile(safe_path)  # type: ignore[attr-defined]
             elif sys.platform == "darwin":
-                subprocess.run(["open", safe_path], check=False)
+                subprocess.run(["open", safe_path], check=True)
             else:
-                subprocess.run(["xdg-open", safe_path], check=False)
+                subprocess.run(["xdg-open", safe_path], check=True)
         except Exception as exc:  # noqa: BLE001
             messagebox.showerror(
                 "Open File Error",
