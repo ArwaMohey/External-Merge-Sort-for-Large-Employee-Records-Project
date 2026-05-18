@@ -238,7 +238,7 @@ class ExternalMergeSortGUI(ctk.CTk):
             except (FileNotFoundError, PermissionError, ValueError, OSError) as exc:
                 ok = False
                 self.log_queue.put(f"[ERROR] {type(exc).__name__}: {exc}")
-            except Exception as exc:  # noqa: BLE001
+            except Exception as exc:
                 ok = False
                 self.log_queue.put(f"[ERROR] Unexpected {type(exc).__name__}: {exc}")
                 self.log_queue.put(traceback.format_exc())
@@ -337,14 +337,10 @@ class ExternalMergeSortGUI(ctk.CTk):
         if not os.path.exists(final_file):
             messagebox.showwarning("File Not Found", "Run Phase 2 Merge first to create the final output file.")
             return
-        try:
-            is_inside = os.path.commonpath([safe_root, safe_path]) == safe_root
-        except ValueError:
-            is_inside = False
         root_prefix = os.path.normcase(os.path.normpath(safe_root + os.sep))
         path_normalized = os.path.normcase(os.path.normpath(safe_path))
         has_prefix = path_normalized.startswith(root_prefix)
-        if not (is_inside and has_prefix):
+        if not has_prefix:
             messagebox.showerror("Invalid Path", "Resolved output path is outside the expected output directory.")
             return
 
