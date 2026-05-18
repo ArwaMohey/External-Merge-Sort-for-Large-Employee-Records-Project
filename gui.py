@@ -8,7 +8,7 @@ import sys
 import threading
 import time
 from tkinter import messagebox, ttk
-from typing import Callable
+from typing import Callable, List, Tuple
 
 import customtkinter as ctk
 
@@ -25,7 +25,7 @@ class QueueWriter(io.TextIOBase):
         return len(text)
 
     def flush(self) -> None:
-        return None
+        pass
 
 
 class ExternalMergeSortGUI(ctk.CTk):
@@ -208,7 +208,7 @@ class ExternalMergeSortGUI(ctk.CTk):
     def _set_status(self, text: str) -> None:
         self.status_value.set(text)
 
-    def _run_async(self, title: str, tasks: list[tuple[str, Callable[[], None]]]) -> None:
+    def _run_async(self, title: str, tasks: List[Tuple[str, Callable[[], None]]]) -> None:
         if self.worker_running:
             messagebox.showinfo("Please Wait", "Another task is still running.")
             return
@@ -333,7 +333,11 @@ class ExternalMergeSortGUI(ctk.CTk):
         if not os.path.exists(final_file):
             messagebox.showwarning("File Not Found", "Run Phase 2 Merge first to create the final output file.")
             return
-        if os.path.commonpath([safe_root, safe_path]) != safe_root:
+        try:
+            is_outside = os.path.commonpath([safe_root, safe_path]) != safe_root
+        except ValueError:
+            is_outside = True
+        if is_outside:
             messagebox.showerror("Invalid Path", "Resolved output path is outside the expected output directory.")
             return
 
