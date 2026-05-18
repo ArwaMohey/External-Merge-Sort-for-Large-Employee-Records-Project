@@ -8,6 +8,7 @@ import sys
 import threading
 import time
 from tkinter import messagebox, ttk
+from typing import Callable
 
 import customtkinter as ctk
 
@@ -207,7 +208,7 @@ class ExternalMergeSortGUI(ctk.CTk):
     def _set_status(self, text: str) -> None:
         self.status_value.set(text)
 
-    def _run_async(self, title: str, tasks: list[tuple[str, callable]]) -> None:
+    def _run_async(self, title: str, tasks: list[tuple[str, Callable[[], None]]]) -> None:
         if self.worker_running:
             messagebox.showinfo("Please Wait", "Another task is still running.")
             return
@@ -231,9 +232,12 @@ class ExternalMergeSortGUI(ctk.CTk):
                         self.log_queue.put(f"\n--- {label} ---")
                         fn()
                         self.after(0, self.progress.set, idx / total_steps)
+            except (FileNotFoundError, PermissionError, ValueError, OSError) as exc:
+                ok = False
+                self.log_queue.put(f"[ERROR] {type(exc).__name__}: {exc}")
             except Exception as exc:  # noqa: BLE001
                 ok = False
-                self.log_queue.put(f"[ERROR] {exc}")
+                self.log_queue.put(f"[ERROR] Unexpected {type(exc).__name__}: {exc}")
 
             elapsed = time.time() - start
             self.after(0, self._finish_run, title, ok, elapsed)
@@ -324,19 +328,27 @@ class ExternalMergeSortGUI(ctk.CTk):
 
     def _open_final_output_file(self) -> None:
         final_file = os.path.join(backend.FINAL_OUTPUT_DIR, "final_sorted_employees.csv")
+        safe_root = os.path.abspath(backend.FINAL_OUTPUT_DIR)
+        safe_path = os.path.abspath(final_file)
         if not os.path.exists(final_file):
             messagebox.showwarning("File Not Found", "Run Phase 2 Merge first to create the final output file.")
+            return
+        if os.path.commonpath([safe_root, safe_path]) != safe_root:
+            messagebox.showerror("Invalid Path", "Resolved output path is outside the expected output directory.")
             return
 
         try:
             if sys.platform.startswith("win"):
-                os.startfile(final_file)  # type: ignore[attr-defined]
+                os.startfile(safe_path)  # type: ignore[attr-defined]
             elif sys.platform == "darwin":
-                subprocess.run(["open", final_file], check=False)
+                subprocess.run(["open", safe_path], check=False)
             else:
-                subprocess.run(["xdg-open", final_file], check=False)
+                subprocess.run(["xdg-open", safe_path], check=False)
         except Exception as exc:  # noqa: BLE001
-            messagebox.showerror("Open File Error", f"Could not open file:\n{exc}")
+            messagebox.showerror(
+                "Open File Error",
+                f"Failed to open final_sorted_employees.csv:\n{type(exc).__name__}: {exc}",
+            )
 
 
 if __name__ == "__main__":
