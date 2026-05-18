@@ -235,7 +235,7 @@ class ExternalMergeSortGUI(ctk.CTk):
                         self.log_queue.put(f"\n--- {label} ---")
                         fn()
                         self.after(0, self.progress.set, idx / total_steps)
-            except (FileNotFoundError, PermissionError, ValueError, OSError) as exc:
+            except (OSError, ValueError) as exc:
                 ok = False
                 self.log_queue.put(f"[ERROR] {type(exc).__name__}: {exc}")
             except Exception as exc:
@@ -348,16 +348,19 @@ class ExternalMergeSortGUI(ctk.CTk):
                 subprocess.run(["open", safe_path], check=True)
             else:
                 subprocess.run(["xdg-open", safe_path], check=True)
-        except (OSError, subprocess.CalledProcessError, PermissionError) as exc:
+        except (OSError, subprocess.CalledProcessError) as exc:
             messagebox.showerror(
                 "Open File Error",
                 f"Failed to open final_sorted_employees.csv:\n{type(exc).__name__}: {exc}",
             )
 
     def _is_path_within_directory(self, path: str, directory: str) -> bool:
-        root_prefix = os.path.normcase(os.path.normpath(directory + os.sep))
-        path_normalized = os.path.normcase(os.path.normpath(path))
-        return path_normalized.startswith(root_prefix)
+        path_real = os.path.normcase(os.path.realpath(path))
+        directory_real = os.path.normcase(os.path.realpath(directory))
+        try:
+            return os.path.commonpath([path_real, directory_real]) == directory_real
+        except ValueError:
+            return False
 
 
 if __name__ == "__main__":
