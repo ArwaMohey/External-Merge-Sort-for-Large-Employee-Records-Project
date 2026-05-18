@@ -30,6 +30,8 @@ class QueueWriter(io.TextIOBase):
 
 
 class ExternalMergeSortGUI(ctk.CTk):
+    _MAX_PREVIEW_ROWS = 120
+
     def __init__(self) -> None:
         super().__init__()
         self.title("External Merge Sort - Employee Records")
@@ -286,7 +288,7 @@ class ExternalMergeSortGUI(ctk.CTk):
             )
         self.records_value.set(str(records))
 
-    def _load_final_preview(self, max_rows: int = 120) -> None:
+    def _load_final_preview(self) -> None:
         for item in self.tree.get_children():
             self.tree.delete(item)
 
@@ -305,7 +307,7 @@ class ExternalMergeSortGUI(ctk.CTk):
                 self.tree.column(column, anchor="center", width=170, stretch=True)
 
             for idx, row in enumerate(reader):
-                if idx >= max_rows:
+                if idx >= self._MAX_PREVIEW_ROWS:
                     break
                 self.tree.insert("", "end", values=[row.get(column, "") for column in columns])
 
@@ -339,7 +341,10 @@ class ExternalMergeSortGUI(ctk.CTk):
             is_inside = os.path.commonpath([safe_root, safe_path]) == safe_root
         except ValueError:
             is_inside = False
-        if not is_inside:
+        root_prefix = os.path.normcase(os.path.normpath(safe_root + os.sep))
+        path_normalized = os.path.normcase(os.path.normpath(safe_path))
+        has_prefix = path_normalized.startswith(root_prefix)
+        if not (is_inside and has_prefix):
             messagebox.showerror("Invalid Path", "Resolved output path is outside the expected output directory.")
             return
 
@@ -350,7 +355,7 @@ class ExternalMergeSortGUI(ctk.CTk):
                 subprocess.run(["open", safe_path], check=True)
             else:
                 subprocess.run(["xdg-open", safe_path], check=True)
-        except Exception as exc:  # noqa: BLE001
+        except (OSError, subprocess.CalledProcessError, PermissionError) as exc:
             messagebox.showerror(
                 "Open File Error",
                 f"Failed to open final_sorted_employees.csv:\n{type(exc).__name__}: {exc}",
