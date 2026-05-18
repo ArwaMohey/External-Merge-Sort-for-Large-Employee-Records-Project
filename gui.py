@@ -235,9 +235,12 @@ class ExternalMergeSortGUI(ctk.CTk):
                         self.log_queue.put(f"\n--- {label} ---")
                         fn()
                         self.after(0, self.progress.set, idx / total_steps)
-            except (OSError, ValueError) as exc:
+            except OSError as exc:
                 ok = False
-                self.log_queue.put(f"[ERROR] {type(exc).__name__}: {exc}")
+                self.log_queue.put(f"[ERROR] File/IO issue ({type(exc).__name__}): {exc}")
+            except ValueError as exc:
+                ok = False
+                self.log_queue.put(f"[ERROR] Data validation issue ({type(exc).__name__}): {exc}")
             except Exception as exc:
                 ok = False
                 self.log_queue.put(f"[ERROR] Unexpected {type(exc).__name__}: {exc}")
@@ -337,6 +340,9 @@ class ExternalMergeSortGUI(ctk.CTk):
         if not os.path.exists(final_file):
             messagebox.showwarning("File Not Found", "Run Phase 2 Merge first to create the final output file.")
             return
+        if not safe_path.lower().endswith(".csv"):
+            messagebox.showerror("Invalid File", "Only CSV output files can be opened from this action.")
+            return
         if not self._is_path_within_directory(safe_path, safe_root):
             messagebox.showerror("Invalid Path", "Resolved output path is outside the expected output directory.")
             return
@@ -345,9 +351,9 @@ class ExternalMergeSortGUI(ctk.CTk):
             if sys.platform.startswith("win") and hasattr(os, "startfile"):
                 os.startfile(safe_path)
             elif sys.platform == "darwin":
-                subprocess.run(["open", safe_path], check=True)
+                subprocess.run(["open", safe_path], check=True, timeout=10)
             else:
-                subprocess.run(["xdg-open", safe_path], check=True)
+                subprocess.run(["xdg-open", safe_path], check=True, timeout=10)
         except (OSError, subprocess.CalledProcessError) as exc:
             messagebox.showerror(
                 "Open File Error",
