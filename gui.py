@@ -337,16 +337,13 @@ class ExternalMergeSortGUI(ctk.CTk):
         if not os.path.exists(final_file):
             messagebox.showwarning("File Not Found", "Run Phase 2 Merge first to create the final output file.")
             return
-        root_prefix = os.path.normcase(os.path.normpath(safe_root + os.sep))
-        path_normalized = os.path.normcase(os.path.normpath(safe_path))
-        has_prefix = path_normalized.startswith(root_prefix)
-        if not has_prefix:
+        if not self._is_path_within_directory(safe_path, safe_root):
             messagebox.showerror("Invalid Path", "Resolved output path is outside the expected output directory.")
             return
 
         try:
-            if sys.platform.startswith("win"):
-                os.startfile(safe_path)  # type: ignore[attr-defined]
+            if sys.platform.startswith("win") and hasattr(os, "startfile"):
+                os.startfile(safe_path)
             elif sys.platform == "darwin":
                 subprocess.run(["open", safe_path], check=True)
             else:
@@ -356,6 +353,11 @@ class ExternalMergeSortGUI(ctk.CTk):
                 "Open File Error",
                 f"Failed to open final_sorted_employees.csv:\n{type(exc).__name__}: {exc}",
             )
+
+    def _is_path_within_directory(self, path: str, directory: str) -> bool:
+        root_prefix = os.path.normcase(os.path.normpath(directory + os.sep))
+        path_normalized = os.path.normcase(os.path.normpath(path))
+        return path_normalized.startswith(root_prefix)
 
 
 if __name__ == "__main__":
