@@ -1,0 +1,1001 @@
+employee_id,last_name,first_name,department,salary
+3304,Jones,Linda,Legal,54847.46
+1526,Brown,Karen,Legal,34258.61
+6437,Lee,Michael,IT,90222.22
+15414,Clark,Sophia,Operations,37369.33
+6224,Allen,Sarah,Legal,104303.99
+4346,Martinez,William,Logistics,60642.34
+11230,Martin,Lucas,Marketing,30197.12
+13695,Rodriguez,John,Logistics,145341.57
+12759,Anderson,Michael,Engineering,82876.75
+2813,Thomas,Jennifer,Engineering,148004.79
+1627,Robinson,Liam,Product Management,31206.78
+8703,King,Olivia,Customer Support,59666.48
+3188,Nguyen,Sarah,Customer Support,145774.46
+13397,Robinson,Michael,Sales,126484.98
+2603,Jones,Mason,Product Management,59721.09
+75,Flores,Elizabeth,Sales,120065.57
+6305,Sanchez,Sophia,Human Resources,51778.34
+10459,Perez,Elizabeth,Human Resources,72850.93
+3736,Young,Susan,Operations,106026.18
+2858,Rodriguez,Mia,IT,70216.75
+11266,Clark,Jessica,Research & Development,149877.88
+12861,Nguyen,David,Sales,77603.97
+11521,Davis,Charlotte,Sales,40698.94
+15824,Torres,Jennifer,Logistics,70394.69
+7055,Hernandez,Charlotte,Logistics,102401.85
+13747,Thomas,Mary,Logistics,131915.2
+896,Garcia,Patricia,Legal,48405.57
+2353,Walker,Robert,Logistics,43617.13
+5414,Jones,Barbara,Sales,104906.31
+4761,Robinson,Liam,Engineering,49088.36
+2475,Ramirez,Charles,Customer Support,112861.14
+14813,Moore,Michael,Research & Development,130975.94
+9309,Wright,Mason,Engineering,36927.11
+9804,Nguyen,Aiden,Customer Support,130523.24
+14488,Davis,Charles,Sales,142549.06
+258,Ramirez,Patricia,Customer Support,122395.18
+7015,Wright,Aiden,Human Resources,129476.31
+11674,Sanchez,Joseph,Product Management,34265.1
+5126,Allen,Robert,Legal,68739.27
+2490,Sanchez,Charlotte,Legal,41474.03
+3974,Allen,Mia,IT,38605.06
+5074,Robinson,Mia,Operations,120197.86
+2163,Clark,Michael,Customer Support,142739.56
+13735,Nguyen,David,Engineering,89878.1
+9568,Wilson,Karen,Research & Development,137799.66
+350,White,Lucas,IT,100293.59
+3872,Nguyen,Aiden,Engineering,115961.62
+3206,Martinez,William,Product Management,41696.79
+15899,Perez,Charles,Product Management,76387.74
+2868,Ramirez,Karen,Finance,109595.16
+15129,Torres,Ava,Human Resources,68364.78
+3261,Robinson,David,IT,138829.36
+11516,Lopez,Sarah,IT,115666.17
+1173,Lewis,Jessica,Research & Development,60846.88
+11292,Wright,Sophia,Legal,42154.23
+7578,Johnson,Barbara,Finance,139850.65
+672,Williams,Charlotte,Finance,31982.74
+15669,Taylor,Jessica,Product Management,67653.76
+11510,Green,Mason,IT,132703.24
+11554,Wright,Mia,Legal,97939.55
+2703,Green,Jennifer,Product Management,144847.61
+7378,King,Elizabeth,IT,94845.39
+13134,Gonzalez,Liam,Finance,86321.88
+6512,Gonzalez,David,Finance,133524.83
+15098,Anderson,Richard,Sales,48364.75
+14807,Martinez,Liam,Sales,50625.52
+8400,Sanchez,Barbara,Engineering,39610.58
+9188,Flores,Barbara,Research & Development,93050.02
+12572,Young,Richard,IT,140081.47
+12214,Williams,Joseph,Operations,138229.81
+2457,Clark,Liam,Operations,65652.76
+13163,Gonzalez,Michael,Logistics,98085.82
+6848,Martinez,Sarah,IT,89505.25
+9928,Martinez,James,Human Resources,77596.2
+5303,Walker,Charles,Marketing,129866.42
+11931,Hernandez,Amelia,Marketing,137901.64
+5864,Lewis,Isabella,Marketing,88917.25
+2489,Garcia,Isabella,Product Management,31272.16
+9791,Miller,James,Research & Development,115210.7
+10817,Wright,Olivia,Human Resources,32796.46
+13739,Walker,William,Sales,149479.63
+12577,Nguyen,Thomas,Research & Development,130880.47
+12051,Lee,John,Finance,82280.07
+1988,Lewis,Jessica,Human Resources,129201.34
+11153,Williams,Mia,Legal,106242.69
+9023,Lopez,William,Customer Support,45398.59
+3847,Jones,Mia,Product Management,33808.51
+14187,Martin,Ava,IT,69023.53
+5415,Martinez,Jennifer,Human Resources,81483.44
+13402,Jones,Michael,Human Resources,58435.43
+15999,Thompson,Aiden,Logistics,132193.53
+10019,Jones,Evelyn,IT,53912.84
+3962,Ramirez,Aiden,Legal,41885.7
+360,Scott,Isabella,Customer Support,40619.48
+6494,Nguyen,Jessica,Logistics,52499.81
+14184,Hill,Sarah,Operations,74314.18
+10900,King,Noah,Product Management,86556.34
+10277,Smith,Noah,Legal,45665.97
+13459,Thompson,Joseph,Research & Development,35544.22
+13516,Robinson,Susan,Logistics,49083.62
+10602,Flores,Liam,Customer Support,131282.24
+6466,Walker,Robert,Marketing,81392.15
+1123,Lewis,Charlotte,Human Resources,49760.96
+13351,Martinez,Amelia,Research & Development,71969.9
+14035,Brown,Susan,Research & Development,90760.9
+11850,Davis,Amelia,Customer Support,33745.8
+1671,Torres,Susan,Product Management,50240.38
+7105,Jackson,Elizabeth,Customer Support,143477.25
+15131,Nguyen,Joseph,Finance,57205.67
+15730,Garcia,Patricia,Engineering,101343.82
+12700,Lewis,John,Operations,48597.48
+2624,King,Sophia,Research & Development,113029.77
+8130,Sanchez,Charles,Marketing,90433.43
+1432,Nguyen,Charlotte,IT,143105.04
+7928,Miller,Michael,Research & Development,128298.36
+9400,Walker,Evelyn,Product Management,128194.38
+5770,King,Barbara,Operations,45782.36
+1004,Gonzalez,Evelyn,Sales,100105.33
+1495,Taylor,John,Finance,94503.86
+11139,Anderson,Charlotte,IT,120625.43
+9968,Davis,Mary,Finance,53804.32
+11816,Thompson,Richard,Legal,128902.98
+4852,Jones,David,IT,92885.65
+5093,Wright,Mia,Customer Support,102666.37
+5724,Smith,Ava,Logistics,98577.76
+1451,Harris,Mary,Product Management,146117.08
+3664,Davis,Liam,IT,65273.62
+2939,Jackson,Susan,Logistics,63983.56
+582,Moore,William,Human Resources,36288.65
+8377,Miller,Patricia,Sales,77779.87
+8462,Davis,Olivia,Human Resources,148242.72
+6390,Torres,Emma,Customer Support,81634.06
+2346,Robinson,Robert,Logistics,34369.02
+14243,Martin,Mason,Research & Development,84401.05
+6318,Torres,Ava,Engineering,133956.77
+15652,Perez,Olivia,Human Resources,91979.8
+12266,Rodriguez,Noah,Research & Development,132593.25
+8634,Harris,Noah,Engineering,36559.92
+13291,Hill,Ava,Logistics,133276.99
+3118,White,Susan,Engineering,127886.25
+7555,Williams,John,Legal,85455.36
+11825,Clark,Mary,Product Management,139734.76
+11122,Sanchez,Emma,Human Resources,87864.18
+15451,Anderson,Robert,Research & Development,108545.12
+11700,Walker,Mia,Marketing,43471.1
+2591,Lopez,Isabella,Human Resources,105299.39
+14865,Green,Jennifer,Legal,148758.04
+4615,Thomas,Emma,Human Resources,65674.86
+8021,Moore,Lucas,Marketing,86075.83
+1754,Allen,Noah,Research & Development,135345.99
+13623,Moore,Charlotte,IT,123599.02
+2861,Green,Sophia,Engineering,132178.36
+12268,Smith,Jennifer,Legal,108728.77
+2729,Allen,Isabella,Customer Support,101838.93
+14175,Hernandez,Elizabeth,Logistics,98589.62
+5153,Brown,Ethan,IT,91995.29
+9986,Martinez,Sophia,Customer Support,105889.0
+5997,Perez,Noah,Product Management,97770.83
+10203,Clark,Patricia,Marketing,64005.77
+6754,Rodriguez,James,IT,93763.26
+321,King,William,Marketing,92375.92
+10482,Perez,Mason,Product Management,105889.43
+9946,Jackson,Mason,Human Resources,105877.07
+5228,Wright,Harper,Human Resources,149384.63
+6132,Walker,John,Customer Support,132061.06
+10079,Scott,Elizabeth,Finance,86520.54
+13577,Smith,Barbara,Marketing,47858.2
+7566,Brown,Lucas,Human Resources,136900.67
+6886,Green,Michael,Operations,48806.22
+8255,Davis,Mary,Finance,118415.79
+6552,Nguyen,Amelia,Legal,52338.35
+12628,Lee,Liam,Logistics,52946.83
+13692,Rodriguez,Susan,Marketing,61582.93
+14893,Sanchez,Jessica,Marketing,144364.83
+11123,Jackson,Jessica,Customer Support,63888.81
+6659,Moore,Ethan,Human Resources,144303.06
+14117,Hernandez,John,Sales,80073.75
+14554,Ramirez,James,Human Resources,112591.28
+15105,Walker,Noah,Finance,143425.86
+8170,Anderson,Amelia,IT,32973.51
+8797,Lewis,Sophia,Operations,103673.98
+6612,Perez,John,Marketing,135630.95
+15270,Miller,Ethan,Research & Development,46041.26
+2251,Rodriguez,Mason,Human Resources,43335.25
+1608,Johnson,Linda,Sales,74267.85
+4977,Brown,Michael,Legal,86165.52
+9028,Wilson,William,Finance,73926.5
+7382,Hill,Emma,Customer Support,98875.37
+8411,Torres,Ava,Finance,119772.64
+4234,Thompson,Evelyn,Product Management,134864.81
+5708,Harris,Mary,Human Resources,60377.02
+12898,King,James,Sales,75738.4
+969,Perez,Isabella,Human Resources,62850.46
+15383,White,John,Finance,72328.0
+11592,Williams,Harper,Marketing,98237.77
+14246,Lewis,Jessica,IT,87208.18
+13805,Wilson,Linda,Product Management,121943.35
+12916,Nguyen,Linda,Customer Support,141177.17
+3684,Martinez,Linda,Research & Development,84581.76
+2195,Green,John,Finance,91133.45
+2484,Thompson,James,Human Resources,119489.38
+7334,Rodriguez,Harper,Operations,69939.81
+15007,Garcia,William,Human Resources,48302.98
+14093,Lee,Michael,Engineering,61927.73
+13131,Smith,Linda,Human Resources,85789.88
+15744,Hill,Thomas,Marketing,71536.31
+6781,Torres,Joseph,Marketing,66253.37
+15238,Perez,Susan,IT,90163.43
+9313,Lopez,Joseph,Logistics,129103.27
+3072,Allen,Richard,Customer Support,143872.29
+13876,Green,Mia,Engineering,126587.5
+2253,Wright,Barbara,Operations,110108.17
+655,Thompson,Harper,Logistics,75795.7
+6163,Brown,Sophia,Logistics,115796.35
+12470,Smith,Lucas,Product Management,46662.52
+5571,Thomas,Liam,Marketing,100085.18
+8897,Nguyen,Noah,Legal,45062.13
+13439,Nguyen,Sophia,Legal,130144.34
+12685,Martin,Jessica,Product Management,95904.73
+9233,Jones,Sarah,Finance,143489.46
+3124,Davis,Jessica,Human Resources,96574.63
+2819,Harris,Karen,Sales,55172.74
+13927,Young,Charlotte,Product Management,136085.21
+3190,Taylor,Karen,IT,70641.11
+15750,Clark,Lucas,Engineering,64638.25
+13593,King,Susan,Operations,117909.7
+12934,Jackson,Michael,Research & Development,40801.21
+5477,Martin,Joseph,Engineering,128458.6
+7279,Lee,Olivia,Sales,89933.43
+5721,Torres,Noah,Legal,74113.5
+9614,Rodriguez,Richard,Customer Support,94696.52
+6332,Moore,Mia,Marketing,49263.74
+8001,Moore,Isabella,IT,93249.78
+71,Jones,Jessica,IT,148388.32
+15016,Lewis,Elizabeth,Marketing,137371.25
+8192,Flores,Liam,Legal,72885.36
+1157,Clark,Evelyn,Operations,105507.97
+10767,Martinez,David,Human Resources,67233.27
+11090,Lee,Noah,Finance,105704.19
+5785,Hill,Ethan,Sales,89056.11
+1801,Rodriguez,Olivia,Finance,109116.35
+9050,Sanchez,Robert,Operations,35017.16
+14489,Perez,Isabella,Legal,83856.94
+15687,Wright,Michael,Operations,145030.54
+5419,Wright,Barbara,Finance,148733.1
+12353,Torres,Harper,Finance,127032.31
+5948,Martin,Susan,Sales,102773.68
+2035,Davis,Robert,Sales,53172.22
+5714,Hernandez,Karen,Sales,62161.22
+1234,Harris,Elizabeth,Customer Support,39151.63
+8376,Thompson,David,Legal,94228.45
+1293,Davis,Barbara,Legal,40033.91
+5463,Nguyen,Harper,Engineering,45753.86
+4177,Anderson,Harper,IT,131717.65
+9005,Young,Jennifer,Customer Support,50860.5
+4129,Young,Olivia,Human Resources,99640.79
+4766,Torres,Emma,Legal,36836.92
+773,Scott,Olivia,Product Management,101346.78
+13703,Young,Isabella,Research & Development,38946.79
+409,Robinson,Sophia,Legal,102016.53
+11401,Robinson,Elizabeth,Logistics,69395.22
+9512,Lopez,Robert,Product Management,70876.17
+337,Smith,Susan,Product Management,139339.41
+15207,Green,Isabella,Logistics,80464.23
+15892,Brown,Robert,IT,138376.56
+13242,Smith,Barbara,Operations,107102.79
+10625,Green,Mary,Research & Development,84456.66
+13814,Jackson,Karen,Research & Development,63432.13
+13030,Walker,Sophia,Product Management,37338.7
+267,Davis,Emma,Customer Support,82419.34
+14571,Young,John,Research & Development,108166.25
+3336,Wright,Jennifer,Finance,89310.48
+2531,Martinez,Emma,Finance,64159.24
+5960,Brown,Ava,Marketing,131825.04
+6858,Robinson,Joseph,Product Management,124843.26
+10092,Allen,Evelyn,Legal,39753.53
+12327,Thompson,Sarah,Marketing,69220.84
+3370,Allen,Olivia,Research & Development,113753.63
+10808,Gonzalez,Elizabeth,Customer Support,75970.09
+7548,Martin,Emma,Customer Support,147063.34
+14955,Anderson,Barbara,Engineering,85211.95
+4211,Garcia,Barbara,Engineering,52407.27
+5738,Flores,Richard,Operations,102791.78
+4542,Taylor,Mary,Operations,114548.33
+4064,White,Charles,Sales,140946.68
+6898,Hill,Ethan,Operations,67607.64
+1310,Torres,Olivia,Finance,74281.27
+2424,Allen,Sophia,Engineering,88280.9
+9990,Smith,Charles,Logistics,59323.44
+10371,Martin,Joseph,Operations,87765.81
+15187,Lopez,Aiden,Product Management,70248.52
+2043,Moore,Sarah,Operations,131097.59
+2909,Nguyen,Harper,IT,104086.29
+10316,Gonzalez,Isabella,Legal,142421.59
+13683,Thomas,Aiden,Human Resources,68717.03
+11821,Garcia,Linda,Engineering,100014.49
+9014,Hernandez,Evelyn,Marketing,53258.73
+5830,White,Karen,Research & Development,69668.22
+11573,Martinez,Richard,Operations,136594.91
+5928,Martinez,Charles,Marketing,70802.03
+4340,Davis,Mason,Customer Support,121691.89
+6753,Wilson,Ava,Human Resources,104984.14
+5422,King,Richard,Logistics,50800.25
+9691,Torres,Lucas,Marketing,104650.1
+15086,Jones,John,Logistics,127456.61
+3210,Clark,Patricia,Sales,100865.91
+14064,Anderson,Linda,Engineering,48622.67
+12548,Hernandez,John,Product Management,78702.05
+2337,Smith,Isabella,Engineering,93631.7
+2799,Lopez,Jennifer,Legal,89685.05
+14768,Nguyen,Richard,Engineering,86069.02
+4579,Rodriguez,Richard,Operations,105601.94
+13289,Johnson,John,Legal,126292.1
+10698,Perez,Mia,Product Management,56417.41
+6115,Hernandez,James,Legal,49414.83
+4208,Moore,Harper,Human Resources,142847.69
+9100,Thomas,Robert,Finance,109415.72
+7757,Hill,Joseph,IT,43230.15
+2011,Perez,Amelia,Finance,33100.1
+8448,King,Lucas,Legal,129401.78
+439,Anderson,Karen,Human Resources,139302.85
+14215,Martin,Mia,Marketing,48352.07
+7043,Green,Amelia,Research & Development,36054.11
+2482,Smith,Elizabeth,Finance,129252.98
+2845,Clark,Michael,Product Management,36408.14
+5942,Williams,Karen,Sales,142788.61
+2389,Williams,Linda,Legal,130424.31
+3773,Scott,Joseph,Logistics,96040.6
+10927,Lopez,Mary,IT,86025.73
+13901,Lee,Joseph,Customer Support,112338.83
+7283,Jones,Liam,Research & Development,120665.78
+2768,Miller,Mary,Finance,108753.03
+5927,Hill,Michael,Engineering,30423.65
+3016,Jackson,Susan,Sales,82246.11
+3500,Gonzalez,James,Marketing,94289.78
+7141,Scott,Thomas,Logistics,93104.5
+10379,Brown,Mason,Legal,132980.92
+4586,Johnson,Sophia,Human Resources,88986.52
+1040,Robinson,Isabella,Operations,93548.28
+12687,Johnson,Karen,Marketing,121937.24
+6152,Martin,Harper,Logistics,131433.6
+1714,Flores,Patricia,Legal,91132.6
+10903,Moore,Aiden,Customer Support,55591.62
+8187,Hernandez,Sophia,Marketing,133339.88
+15674,Garcia,Karen,Product Management,42322.15
+1170,Wilson,Harper,Research & Development,147988.26
+9401,Rodriguez,Joseph,Sales,123517.41
+13785,Flores,Jessica,Operations,143317.88
+13919,Jones,Emma,Legal,99257.26
+1150,Green,Noah,Product Management,44643.12
+10897,Brown,Richard,Finance,55515.26
+15517,Hernandez,Charles,Logistics,48420.31
+9534,Young,Sophia,Legal,127234.52
+3284,Lopez,Susan,Engineering,56458.94
+4650,Moore,David,Customer Support,57004.82
+15818,Hill,Ethan,Marketing,44991.74
+12021,Smith,David,Finance,115046.08
+14180,Gonzalez,Barbara,Operations,40926.7
+3977,Smith,Olivia,Sales,94979.5
+9801,Jackson,Isabella,Human Resources,95883.95
+13261,Clark,Lucas,Legal,52223.09
+13477,Lee,John,IT,85206.17
+3169,Williams,Sophia,Human Resources,92795.29
+7758,Williams,Olivia,Product Management,78178.86
+7040,Lewis,John,Customer Support,132032.1
+3116,Nguyen,Aiden,Operations,52125.4
+9471,Lopez,Sophia,Operations,118189.07
+780,White,Ava,Engineering,126869.07
+15630,Lopez,Aiden,Human Resources,140118.97
+14137,Hill,Patricia,Human Resources,35950.21
+8166,Scott,Liam,Finance,115016.69
+6454,Wilson,Liam,Product Management,114572.88
+12460,Young,Mia,Legal,110367.9
+7140,Williams,Linda,Customer Support,73517.91
+2719,Davis,Thomas,Finance,144683.79
+4524,Hernandez,Michael,Sales,36239.01
+9633,Lopez,John,Human Resources,144453.44
+10546,Jackson,Sarah,Product Management,145995.67
+2737,Young,William,Sales,144683.25
+9909,Thompson,Richard,Product Management,129267.82
+1935,Lewis,Ethan,IT,68781.38
+2760,Anderson,Lucas,Sales,110231.6
+7617,Jackson,Thomas,Marketing,54575.77
+4173,Thompson,Aiden,Engineering,137574.76
+14235,Garcia,David,IT,92883.61
+5180,Taylor,Ava,Research & Development,37293.37
+13391,Taylor,Charles,Legal,62186.4
+5565,Jones,Mia,Logistics,98298.09
+9177,Martin,Harper,Sales,35419.54
+4484,Brown,James,Product Management,136375.01
+1723,Williams,Lucas,Operations,147808.82
+7281,Young,James,Research & Development,63444.36
+12839,Smith,Amelia,Operations,97953.32
+5170,Green,Robert,Sales,112993.38
+12591,Wilson,Sophia,Human Resources,125731.63
+14079,Walker,Richard,Finance,37550.21
+13971,Scott,Jessica,Engineering,136519.22
+12639,Sanchez,Emma,Sales,111850.42
+14664,Scott,Charles,Finance,46361.45
+688,Lopez,John,Product Management,129574.85
+10881,Nguyen,James,Research & Development,93109.1
+11785,Flores,James,Sales,101805.0
+4794,Jackson,Joseph,Operations,63034.49
+11639,Hernandez,Amelia,Research & Development,78004.29
+10392,Scott,Olivia,Product Management,86539.63
+4961,Young,Jennifer,Research & Development,118874.14
+8813,Ramirez,Liam,Sales,133856.68
+7273,Moore,Emma,Logistics,73370.29
+15823,Williams,Harper,Sales,125751.9
+5377,Davis,Lucas,IT,107534.17
+9979,Young,Thomas,Human Resources,141416.28
+14988,Taylor,Richard,IT,56546.11
+7640,Martin,James,Engineering,91660.97
+9385,Hernandez,Ethan,Research & Development,145923.73
+13560,Sanchez,Olivia,Marketing,129066.71
+12544,Green,Evelyn,Logistics,59413.73
+788,Lewis,William,Human Resources,52168.81
+15756,Robinson,Amelia,Marketing,77251.83
+12765,Walker,Sarah,Product Management,76141.93
+8342,Scott,David,Logistics,55506.21
+15514,Johnson,Richard,IT,54470.91
+1082,Moore,James,Research & Development,69847.74
+14450,Sanchez,Susan,Operations,87877.77
+8356,Martin,Ava,Operations,59618.15
+3825,Gonzalez,Sarah,Operations,81520.61
+11358,Ramirez,Karen,Operations,73320.42
+9956,Hill,Robert,Engineering,77680.57
+14120,Wright,Noah,Product Management,123663.41
+5046,Lopez,Sophia,Logistics,58433.23
+6981,Smith,John,Legal,103521.71
+111,Harris,Thomas,Customer Support,117273.64
+12256,Jackson,Joseph,Human Resources,94319.71
+10315,Clark,Robert,Human Resources,87429.29
+2170,Thompson,Aiden,Marketing,106907.51
+8363,Rodriguez,Evelyn,Marketing,74653.36
+4883,Lopez,Charles,Sales,103522.41
+10703,Allen,Emma,Product Management,118291.82
+8535,Wilson,Liam,Logistics,57726.13
+8227,Ramirez,Sarah,Logistics,78634.1
+9916,Wilson,Aiden,IT,127506.61
+2085,Thomas,David,Sales,115487.74
+4849,Jones,Charles,Logistics,82421.61
+12474,Miller,Evelyn,Finance,114443.32
+538,Brown,Richard,Legal,48504.82
+13777,Walker,Emma,Marketing,130065.13
+2634,Clark,William,Finance,96669.38
+4552,Lee,Harper,Logistics,82304.37
+466,Rodriguez,Emma,Legal,138420.34
+3150,Martin,Barbara,Logistics,132672.45
+14150,Green,Aiden,Customer Support,147317.14
+13338,Hill,Ava,Customer Support,44017.09
+1229,Lopez,Susan,Legal,38568.72
+2409,Johnson,Robert,Product Management,94602.53
+6421,Sanchez,Mary,Legal,87982.11
+118,Wright,William,IT,129258.36
+8337,Allen,Harper,Logistics,86856.45
+3967,King,Mia,Product Management,118864.3
+6814,Johnson,Elizabeth,Legal,103139.92
+3689,Miller,Lucas,Research & Development,132364.07
+791,Thomas,James,IT,35933.53
+14936,Allen,John,Legal,72365.98
+13117,Garcia,Elizabeth,Product Management,123603.4
+9128,Harris,Liam,Human Resources,71787.59
+10683,Lee,Lucas,Sales,62935.56
+4353,Lopez,Robert,IT,142827.87
+4355,Wright,Harper,Product Management,100359.05
+9674,Martinez,Mia,Logistics,60023.93
+10342,Hill,Barbara,Logistics,91616.52
+4043,Lee,Aiden,Sales,103664.44
+2246,Jackson,Thomas,Customer Support,78557.52
+13863,Wright,William,Research & Development,115521.49
+8116,Davis,Barbara,Sales,131075.46
+7489,Scott,Jennifer,Research & Development,95957.84
+14699,Flores,Michael,Human Resources,67136.51
+12956,Harris,Noah,Engineering,141513.29
+719,Jones,Olivia,Sales,112763.51
+5346,Torres,Aiden,Product Management,42390.08
+9281,Ramirez,Liam,Product Management,85853.06
+10097,Jackson,Thomas,Engineering,40833.54
+11762,White,Susan,Product Management,103527.35
+1820,Clark,Patricia,Sales,116020.75
+9671,Gonzalez,Jessica,Logistics,74746.81
+1658,Hill,Linda,Product Management,89350.4
+3171,Perez,Thomas,Sales,80206.26
+1516,White,Susan,Logistics,147094.48
+61,Scott,John,IT,92823.04
+8792,King,James,Research & Development,74928.01
+15268,Martinez,Patricia,Legal,90585.61
+10580,Hill,Thomas,Operations,128201.09
+5500,Lopez,Mia,Product Management,128709.45
+13776,King,Amelia,Sales,129933.43
+4855,Lee,Jennifer,Legal,41272.68
+3483,Martinez,Karen,Marketing,129612.61
+13294,Williams,Linda,Sales,83420.69
+14227,Flores,Susan,Product Management,131710.54
+191,Lopez,Mary,Product Management,54778.08
+6329,Rodriguez,Susan,Engineering,111945.53
+11324,Walker,Barbara,Product Management,43731.53
+9224,Johnson,Charles,Finance,42705.12
+5926,King,Elizabeth,Human Resources,67086.88
+10335,Green,Elizabeth,Marketing,78781.08
+15051,Gonzalez,James,Research & Development,42969.31
+10389,Johnson,Richard,Engineering,118295.33
+3705,Perez,Ethan,Marketing,130155.59
+8488,Sanchez,Charles,Product Management,129622.88
+4744,Lewis,Susan,Research & Development,117744.65
+5691,Nguyen,Isabella,Human Resources,76416.52
+15024,Martin,Noah,Legal,125311.51
+15825,Williams,Michael,Research & Development,48993.55
+13630,Walker,Charles,Finance,88035.94
+10509,Lopez,Michael,Finance,105181.83
+2486,Lewis,James,Engineering,149578.64
+7132,Harris,Olivia,IT,99586.49
+6365,Clark,Elizabeth,Customer Support,47193.93
+6045,Flores,Lucas,Logistics,51677.61
+2908,Rodriguez,Susan,Sales,84124.73
+3612,Smith,Barbara,Finance,82827.31
+2497,Martinez,David,Customer Support,139284.46
+6740,Hernandez,Mary,Sales,149026.27
+2261,Young,Liam,Operations,32850.76
+7643,Hernandez,William,Customer Support,148189.68
+3770,Robinson,William,Product Management,148072.67
+5112,King,Joseph,Operations,131907.97
+11398,Gonzalez,Sophia,Product Management,46382.57
+5610,King,Richard,Legal,135191.17
+6690,Hernandez,Ava,IT,114820.29
+15327,Anderson,William,Research & Development,95947.9
+6860,Martin,Amelia,Engineering,112408.15
+3222,Nguyen,Isabella,Customer Support,63010.97
+13045,Lewis,Joseph,Customer Support,60714.48
+6327,Lopez,Patricia,Marketing,81510.04
+2873,Jackson,William,IT,85720.7
+11805,Torres,William,Logistics,45566.81
+13662,Walker,Richard,Human Resources,90652.18
+1100,Martin,Charlotte,Operations,97466.88
+14116,Sanchez,William,Logistics,132586.85
+7853,Brown,Lucas,IT,30078.59
+13103,Hernandez,Aiden,Finance,38096.48
+11954,Hernandez,Barbara,Engineering,78676.51
+11748,Clark,Mary,Customer Support,36791.48
+13051,Thomas,Mia,Logistics,69210.4
+8904,Wilson,Olivia,Sales,77897.08
+3473,Garcia,Charlotte,IT,65577.23
+12813,Wilson,Emma,Human Resources,88149.31
+5396,Clark,Mary,Legal,83654.01
+4203,Jackson,Lucas,Engineering,43397.49
+552,Thompson,Evelyn,Logistics,131984.28
+13514,Johnson,Emma,Sales,141991.21
+14901,Robinson,Sophia,Finance,39844.58
+15192,Thomas,John,Research & Development,98165.09
+11285,Miller,Thomas,Legal,127401.4
+10689,Walker,Thomas,Operations,144953.0
+4724,Nguyen,Patricia,Logistics,139860.46
+9111,Hill,Joseph,Human Resources,89768.91
+3299,Walker,Isabella,Product Management,127370.48
+14617,Flores,Michael,Human Resources,116377.16
+11040,White,Olivia,Research & Development,104419.88
+12032,Wilson,Charlotte,Operations,102030.75
+15475,Thompson,Emma,Customer Support,47587.15
+13936,Garcia,Susan,Research & Development,103772.65
+12479,Anderson,Sarah,Marketing,69267.06
+15417,Flores,Linda,Finance,48577.21
+9235,Jones,Ethan,Product Management,56541.16
+12383,Robinson,Ava,Human Resources,93414.88
+4464,Wilson,Olivia,IT,147461.94
+5416,King,Harper,Human Resources,145141.78
+7291,Green,Lucas,Human Resources,52264.16
+6833,Martin,John,Engineering,30308.96
+1046,Clark,Ava,Engineering,114576.96
+14926,Flores,Charles,Legal,42807.07
+12957,Rodriguez,Emma,Logistics,45565.07
+4928,Thompson,Karen,Sales,124744.45
+3978,Lopez,Joseph,Customer Support,74515.5
+1208,Lopez,Karen,Research & Development,72604.68
+12155,Nguyen,Thomas,Legal,68690.45
+6619,Green,Jessica,Legal,41786.45
+7070,Walker,Liam,IT,129843.99
+8900,Sanchez,Sarah,Legal,131401.69
+15208,Davis,Jessica,Sales,64238.15
+11032,Jackson,Richard,Customer Support,122296.96
+774,Johnson,Harper,Human Resources,73149.4
+207,Miller,Mason,Operations,101381.21
+15473,Sanchez,Thomas,Product Management,32704.63
+9867,King,Robert,Engineering,117891.77
+11198,Martinez,Ethan,Human Resources,112130.62
+7214,Taylor,Thomas,Finance,116467.84
+15712,Wright,Elizabeth,IT,123034.59
+7618,Walker,Mia,Marketing,146374.97
+8837,Lopez,Elizabeth,Engineering,94569.03
+5604,King,Sarah,Legal,103451.1
+8015,Martin,Mary,Engineering,68037.03
+13419,Gonzalez,Harper,Human Resources,66474.63
+2548,Moore,Aiden,Sales,121197.63
+7888,Thompson,Ethan,Customer Support,103870.66
+8518,Jackson,Noah,Legal,76673.59
+13021,Rodriguez,Mason,Finance,52630.83
+2916,Hernandez,Liam,Operations,137425.71
+10639,Allen,Jennifer,Finance,145002.25
+12358,Sanchez,Charles,Product Management,127511.4
+5397,Hernandez,Richard,Marketing,122983.93
+1369,Allen,Richard,Product Management,47022.91
+4447,Nguyen,Richard,Finance,117514.01
+3981,Lewis,Harper,IT,114998.64
+9723,Jones,Harper,Finance,84393.71
+592,Wright,Sophia,Finance,139876.45
+505,Jackson,William,Sales,144842.87
+14977,Thompson,Mason,Customer Support,68753.45
+1463,Perez,Sophia,Marketing,114737.87
+4550,Lee,Elizabeth,Legal,77473.19
+2194,King,Charles,Marketing,101812.09
+8789,Thomas,Jennifer,Sales,102774.48
+8587,Lee,Ava,Legal,83762.02
+8836,Lopez,Elizabeth,Customer Support,37496.64
+12784,Robinson,Harper,IT,73663.08
+2609,Thomas,Joseph,Finance,42076.03
+11300,Lee,Robert,Logistics,124843.86
+15752,Lopez,Karen,Sales,79463.15
+5869,Hernandez,Sarah,Logistics,46145.36
+3263,Perez,Robert,Operations,104420.43
+13450,Brown,Jessica,Customer Support,93892.19
+4092,Jones,Ethan,Research & Development,133569.2
+10804,Hernandez,David,Legal,89133.96
+13053,Davis,Olivia,Customer Support,62389.89
+586,Davis,Aiden,IT,53227.67
+4780,Robinson,Evelyn,Finance,57932.05
+8745,Harris,Jennifer,Marketing,63160.42
+12304,Smith,Charles,Marketing,116541.88
+2254,Nguyen,Barbara,Human Resources,33176.89
+15435,Martin,Jessica,Research & Development,102318.82
+1743,Brown,Ethan,Finance,67496.28
+11211,Flores,Jennifer,Logistics,135949.29
+8234,Thompson,Robert,IT,108143.36
+14982,Smith,Joseph,Logistics,60490.93
+6267,Brown,Sophia,Finance,72857.81
+5897,Allen,Harper,Product Management,120354.44
+5090,Thomas,Michael,Research & Development,84496.0
+7477,Scott,Aiden,Legal,134236.07
+3429,Brown,Harper,Operations,133919.73
+12006,Moore,Emma,Operations,103546.07
+6359,Harris,Michael,Customer Support,68766.78
+11227,King,Sophia,Legal,76260.28
+11332,Garcia,Michael,Operations,32904.73
+4448,Nguyen,Aiden,Sales,134399.74
+1023,Ramirez,John,Logistics,56816.47
+12660,Garcia,Robert,Legal,91135.2
+10130,Wright,Thomas,IT,147821.28
+3870,Wilson,Joseph,Engineering,64155.86
+7128,Martinez,Ethan,Human Resources,103597.38
+34,Wright,Sarah,Customer Support,36345.55
+12025,Lewis,Charlotte,Human Resources,51834.91
+2091,Thompson,Isabella,Logistics,35537.15
+3927,Wilson,Emma,Operations,38000.67
+14353,Nguyen,Mia,Operations,56816.36
+6361,Gonzalez,Olivia,Engineering,137623.54
+11924,Thompson,Linda,Customer Support,57630.08
+10209,Jackson,Charlotte,Legal,56997.05
+13521,Scott,Karen,Logistics,90296.09
+8693,Johnson,James,Engineering,35714.35
+9559,Nguyen,Patricia,Marketing,103985.42
+14111,Martinez,John,Customer Support,73574.0
+6996,Martin,Elizabeth,Product Management,63224.57
+14432,Jackson,Jennifer,Marketing,68395.78
+137,Lewis,Linda,Legal,117003.07
+11383,Miller,Patricia,Sales,102517.04
+8929,Lee,James,Logistics,56899.97
+11861,Flores,Joseph,Human Resources,70288.96
+2546,Brown,Mia,Marketing,60107.96
+2670,Jones,Jessica,Product Management,46697.61
+12221,Thomas,Barbara,Product Management,130885.11
+6666,Wilson,Liam,Sales,142417.75
+5262,Clark,John,Product Management,142189.52
+6589,Walker,Sophia,Logistics,61636.21
+3221,King,Jessica,Human Resources,53051.81
+7343,Robinson,Mia,Research & Development,59258.88
+6106,Thomas,Lucas,Logistics,94896.09
+6247,Nguyen,Patricia,Operations,61503.9
+13199,Scott,Emma,Marketing,141359.88
+8024,Wilson,Charles,IT,34039.71
+1829,Davis,Harper,IT,43571.65
+6227,Hill,Emma,Operations,38516.71
+11649,Sanchez,William,Product Management,31128.33
+12809,Thompson,Charles,Customer Support,147933.06
+15646,Wright,Emma,IT,38069.48
+42,Lee,Isabella,Logistics,83387.14
+13083,Gonzalez,John,Research & Development,143094.47
+3561,Young,David,Research & Development,94147.82
+12897,Gonzalez,Joseph,Customer Support,94633.53
+9331,Johnson,David,IT,40148.15
+12439,Johnson,David,Sales,64652.55
+9652,Jackson,Jessica,Legal,73523.14
+5212,Wright,Noah,Marketing,74542.49
+3565,Scott,Evelyn,Engineering,130655.52
+12534,Green,Mason,Research & Development,80460.8
+8168,Thompson,Olivia,Operations,34764.41
+8272,Smith,Michael,Product Management,81777.73
+4498,Scott,Lucas,Human Resources,89360.77
+1981,Thompson,William,Engineering,64981.68
+10532,Jones,David,Marketing,95712.36
+11807,Martin,Karen,Legal,121578.2
+5890,Wilson,Mary,Logistics,112560.81
+7266,Clark,Amelia,Marketing,144487.28
+3134,Wilson,Sarah,Logistics,74908.97
+6244,Allen,Ethan,Operations,122474.06
+14283,Wright,Karen,Customer Support,95662.11
+5684,Garcia,Joseph,Customer Support,38194.13
+2306,Green,Patricia,Sales,65571.78
+6935,Lopez,Karen,Product Management,121900.08
+4106,Scott,John,Finance,133844.21
+12964,Gonzalez,William,Logistics,133010.44
+12881,Anderson,Mary,Sales,106615.47
+7599,Lee,Mary,IT,65189.18
+7523,Clark,Mary,Engineering,118377.99
+8045,Hill,Susan,Finance,138510.31
+13690,Hernandez,Richard,Product Management,74575.64
+5889,Davis,Sophia,Human Resources,116807.74
+8971,Thompson,Liam,Marketing,102953.09
+6362,Jackson,Lucas,Legal,57705.84
+8944,Rodriguez,Richard,Customer Support,76004.25
+10748,Torres,Olivia,IT,107540.54
+8796,Davis,Robert,Product Management,139082.15
+6093,Lopez,Charlotte,Human Resources,72964.59
+14809,Lee,Michael,Marketing,138776.55
+5037,Hernandez,Richard,Sales,119785.01
+15708,King,Mia,Engineering,124862.31
+8598,Torres,Sophia,IT,53533.87
+3516,Robinson,Sarah,Legal,105497.2
+6183,Hill,James,Engineering,91556.04
+15138,Scott,Olivia,Sales,91411.48
+4873,Anderson,Thomas,Customer Support,141382.84
+11556,Lopez,Harper,IT,35138.89
+2942,Smith,Sophia,Research & Development,135588.65
+3864,Wright,David,Finance,79774.15
+14292,Torres,Harper,Sales,72674.96
+6572,Miller,Sophia,Product Management,144713.44
+10614,Jones,Aiden,Legal,39651.35
+10835,Miller,Mary,Finance,127031.5
+3011,Hernandez,Harper,Research & Development,148157.42
+12115,Thomas,Noah,Research & Development,51428.14
+233,Ramirez,William,Marketing,64283.62
+5401,Smith,Karen,IT,149840.77
+5792,Perez,Noah,Sales,38673.93
+7788,Allen,Mary,Operations,59748.97
+7319,Anderson,Richard,Product Management,139385.69
+13657,Jones,Susan,Engineering,147511.21
+3050,Johnson,Lucas,Sales,47729.17
+13638,Wilson,Charles,Human Resources,141501.75
+14310,Davis,Susan,Marketing,67556.78
+9897,Green,Elizabeth,IT,105035.94
+11297,Smith,Ava,Legal,132061.71
+5638,Lewis,Linda,Operations,32970.68
+5831,Rodriguez,Barbara,IT,64186.72
+15798,Johnson,James,Engineering,77802.3
+10444,Sanchez,Michael,Finance,51591.56
+2610,Brown,Harper,Operations,64683.2
+6145,Smith,Sophia,Logistics,89182.43
+4533,Jackson,Elizabeth,Research & Development,146315.14
+6138,Anderson,Mia,Logistics,126269.13
+3640,Robinson,Emma,Legal,52429.32
+13803,Moore,Linda,Customer Support,126051.58
+15218,Young,James,Human Resources,124394.31
+9316,Green,Michael,Research & Development,102359.68
+8704,Jones,Jessica,Logistics,81150.45
+13221,Williams,Karen,IT,81883.81
+14834,Perez,Charles,Human Resources,74382.65
+8094,Lopez,Isabella,Logistics,42976.45
+9133,Harris,David,Engineering,94007.31
+13328,Clark,Karen,Human Resources,129495.61
+166,Clark,Michael,Product Management,56767.35
+4629,King,John,Operations,35699.28
+8838,Scott,Karen,Operations,54220.23
+1058,Martin,Susan,Product Management,114028.88
+9891,Jackson,Linda,Customer Support,49550.14
+7790,Jones,Liam,Research & Development,139050.84
+8807,Allen,Aiden,Marketing,149902.01
+5900,Taylor,Isabella,Operations,34430.21
+3514,Garcia,Thomas,Legal,76227.54
+15521,Johnson,Jennifer,Logistics,95974.84
+15619,Torres,Harper,IT,97708.69
+9696,Rodriguez,Susan,Engineering,108185.38
+14555,Garcia,Mason,Customer Support,95884.15
+11322,Gonzalez,Thomas,Product Management,144401.53
+8456,Williams,Karen,Engineering,70571.42
+5449,Harris,Charlotte,Marketing,145653.85
+13779,Lewis,Mia,Customer Support,73184.03
+9901,Nguyen,Sarah,Customer Support,31421.6
+8604,Martin,Sarah,Logistics,42570.87
+4984,Johnson,Jennifer,Engineering,61855.03
+680,Ramirez,Charlotte,Customer Support,149815.2
+8899,Thompson,Linda,Legal,52095.03
+6303,Smith,Linda,Product Management,32235.75
+5786,Martinez,Joseph,Product Management,112103.41
+11787,Torres,Robert,Research & Development,92624.97
+15934,Rodriguez,Harper,Sales,62716.58
+10068,Taylor,Noah,Product Management,33533.51
+9293,Allen,Olivia,Finance,118248.23
+11066,Johnson,Harper,Engineering,123609.88
+11563,Perez,David,Logistics,51026.1
+2599,Green,Isabella,Operations,133464.15
+97,Thompson,Charles,Product Management,104282.09
+2141,Walker,Linda,Operations,47465.59
+13912,Williams,Ethan,Sales,121974.8
+1585,Perez,Elizabeth,Engineering,30353.82
+2248,Moore,Elizabeth,IT,146685.76
+15212,Robinson,Thomas,Operations,84522.96
+3179,Green,Harper,Human Resources,116072.63
+5371,Clark,Liam,Sales,85226.5
+5663,Martin,Sophia,Logistics,89591.96
+9040,Nguyen,Charles,Sales,61848.45
+681,Smith,Karen,Engineering,81241.54
+10577,Walker,David,IT,109254.45
+13415,Lee,David,Operations,128964.6
+13461,Torres,Ava,Operations,112316.86
+7639,Allen,David,Marketing,48352.2
+8177,Young,Barbara,Finance,112387.31
+3277,Harris,James,Engineering,82144.6
+14915,Williams,Liam,Engineering,45645.96
+3285,Perez,Charlotte,Finance,100724.22
+15080,King,Thomas,Logistics,147160.47
+7616,Walker,Lucas,Product Management,44680.95
+11002,Jackson,Ava,Legal,97338.07
+15598,Wright,Mason,Operations,115071.3
+9992,Anderson,Susan,Marketing,89172.61
+9515,Thomas,Amelia,Engineering,128363.0
+11403,Nguyen,Liam,Sales,65024.16
+4069,Anderson,Olivia,Finance,132221.43
+9584,Jones,Charlotte,Product Management,66369.61
+13356,Clark,Harper,Engineering,143011.54
+15240,Jackson,Barbara,Product Management,117112.21
+7560,Hernandez,Linda,Finance,117369.39
+1732,Moore,Mia,Engineering,65951.76
+87,Robinson,David,Engineering,132733.99
+2361,Wilson,Olivia,Customer Support,72631.7
+14546,Green,Ava,Human Resources,122141.83
+7065,Wright,Karen,Operations,50947.39
+14290,Anderson,Elizabeth,Finance,102361.39
+10074,Lopez,Aiden,Engineering,87681.21
+13054,Jones,Karen,Finance,114218.06
+9693,Davis,Richard,Logistics,39921.44
+15656,Hernandez,William,IT,127408.51
+8008,Walker,Emma,Research & Development,60882.71
+7591,Martinez,Michael,Logistics,43727.86
+8771,Walker,Mason,Operations,79459.75
+8565,White,Evelyn,Marketing,50510.62
+13448,Lewis,Noah,Sales,143144.75
+110,Lopez,Charlotte,Research & Development,140910.41
+8502,Johnson,Charlotte,Legal,31504.61
+329,Lewis,Noah,Legal,54883.8
+3653,Williams,Karen,Logistics,69489.07
+1279,Scott,Linda,Marketing,71536.1
+12963,Lopez,Robert,Marketing,125389.52
+10235,Lopez,John,IT,106711.13
+13656,Allen,Mason,Operations,99928.63
+229,Gonzalez,Mason,Product Management,92260.65
+14779,King,Evelyn,Logistics,93329.45
+5166,Gonzalez,Susan,Product Management,149572.25
+10427,Martinez,Harper,Human Resources,83395.43
+6120,White,Lucas,Logistics,118146.67
+1049,Scott,Richard,Marketing,114766.13
+14063,Miller,Thomas,Finance,83791.71
+12816,King,Amelia,Marketing,58343.39
+4645,King,Charlotte,Marketing,105136.02
+7064,Rodriguez,Amelia,Legal,91478.85
+7539,Moore,William,Legal,74391.47
+986,Thomas,Charles,Legal,94344.5
+38,Young,Charles,Research & Development,49871.71
+3921,Miller,Karen,Operations,37888.91
+6546,Hill,David,Product Management,88177.38
+11981,Scott,Ethan,Legal,71857.02
+8204,Nguyen,Sophia,Research & Development,49440.7
+9731,White,Lucas,Finance,118478.55
+3030,Harris,Susan,Engineering,89808.19
+1578,Davis,Olivia,Legal,62813.11
+821,Walker,Evelyn,Marketing,75991.39
+2225,Rodriguez,Mason,Marketing,62120.14
+5347,Green,Aiden,Legal,97733.26
+1062,Lopez,Sophia,Human Resources,112312.48
+4224,Ramirez,Thomas,Sales,55448.02
+9423,Martin,Karen,Engineering,74110.73
+8865,Rodriguez,Jessica,Marketing,66525.21
+9936,Lewis,Karen,Customer Support,96665.61
+2081,Thomas,Susan,Sales,51427.33
+11254,Scott,Noah,Product Management,129822.59
+6549,Torres,Isabella,Human Resources,62196.6
+2777,Gonzalez,Aiden,Research & Development,48995.33
+1762,Rodriguez,Richard,Human Resources,111093.83
+14433,Johnson,Sarah,Marketing,82582.83
+11900,Lopez,Liam,Legal,63258.61
+14565,Williams,Emma,IT,30545.01
+2838,Young,Elizabeth,Finance,69270.0
+5791,Flores,Sarah,Human Resources,128751.1
+7410,Brown,Thomas,Marketing,79651.0
+2314,Young,Lucas,Marketing,138199.03
+13222,Smith,Emma,IT,113045.24
+11599,Harris,Olivia,Engineering,87056.91
+11989,Allen,John,Operations,135870.49
+5562,Taylor,Patricia,Customer Support,106738.7
+14685,Martin,Robert,Sales,75602.16
+11932,Williams,Liam,Research & Development,43347.54
+2983,Williams,Harper,Human Resources,42082.66
+10214,Miller,Patricia,Engineering,99200.07
+35,Hernandez,Mia,Legal,65110.75
+15918,Garcia,Isabella,Research & Development,135550.15
+4382,King,Sophia,Customer Support,138370.45
+12545,Walker,Noah,Sales,62327.14
+11388,Sanchez,Isabella,Research & Development,30724.91
+9243,Allen,Barbara,Marketing,120215.46
+5945,Allen,Harper,Customer Support,148782.03
+2672,White,Emma,Sales,76261.73
+13839,Hill,Charles,Research & Development,139123.71
+1258,Lewis,Thomas,Marketing,53070.16
+6486,Garcia,James,Legal,118934.26
+14503,Torres,Barbara,Marketing,74055.71
+2818,Harris,Mason,Customer Support,116154.88
+9859,Clark,Emma,Human Resources,109445.79
+10516,Johnson,Ethan,Legal,98703.73
+605,Green,John,Engineering,124927.09
+3725,Flores,Evelyn,Engineering,144375.48
+6665,Martin,Mia,Customer Support,142438.93
+3639,Taylor,Elizabeth,Marketing,55540.37
+13985,Nguyen,Ethan,Logistics,110157.71
+8473,Nguyen,Barbara,Logistics,73902.03
+11636,Wright,Richard,Marketing,129675.66
+457,Wilson,Barbara,Sales,98634.04
+4719,Allen,Charles,Finance,114014.68
+3058,Lee,Barbara,Operations,73631.73
+14648,Ramirez,Sophia,Logistics,94490.06
+10096,Hernandez,Aiden,Product Management,132161.73
+14960,Torres,Susan,Operations,85761.46
+8230,Scott,Mia,Sales,68925.82
+1855,Flores,William,Human Resources,137885.75
+6491,Anderson,Patricia,Engineering,108897.9
+6931,Garcia,Richard,Marketing,45189.1
+10477,Green,Mason,Research & Development,118597.71
+2056,Wright,Linda,Engineering,110275.42
+14031,Jones,Mason,Finance,144749.64
+4263,Johnson,Michael,Legal,40121.26
+1016,Perez,Isabella,Engineering,106068.24
+4396,White,Barbara,Finance,45762.44
+9008,Harris,Emma,Finance,126132.34
+7984,Martinez,Elizabeth,Legal,146484.25
+1675,Jackson,Robert,Human Resources,145732.32
+12269,Davis,Ava,Operations,35886.05
+4370,Brown,James,Customer Support,101601.1
+12902,Garcia,Thomas,Operations,48592.0
+2630,Green,Patricia,Customer Support,58717.85
+11718,Garcia,Sarah,Customer Support,60579.2
+6806,Walker,Amelia,Logistics,126258.27
+15458,Anderson,Jennifer,Product Management,131667.56
+7615,Harris,John,IT,34417.38
+13473,Williams,Mason,Engineering,46418.05
+14734,Miller,Mary,IT,77944.95
+2574,Miller,Michael,Engineering,137750.22
+2249,Martin,Richard,Operations,55516.9
+967,Martinez,James,IT,41099.4
+9068,Smith,Thomas,Product Management,145991.84
+15758,Flores,Michael,Sales,39729.3
+12481,Anderson,Elizabeth,Engineering,40920.97
+356,Garcia,John,Customer Support,83692.31
+1796,White,Charles,Engineering,112833.82
+9855,Taylor,Jennifer,Operations,116419.2
+3110,Jackson,Charlotte,Customer Support,87065.66
+11536,Miller,Mia,Legal,59637.26
+11564,Sanchez,Mary,Logistics,135583.38
+13909,Martin,Robert,Product Management,137358.85
+2505,Lopez,Thomas,Marketing,44155.0
+12188,Green,Barbara,Legal,72662.05
+9489,Young,Patricia,Product Management,55719.89
+222,Harris,Michael,Finance,76001.31
+6801,Young,William,Engineering,46163.39
+10705,Taylor,John,Legal,88332.19
+12026,Harris,Mary,Sales,36758.27
+4425,Ramirez,Jessica,Human Resources,67985.73
+2979,Davis,Emma,Operations,123971.1
+4255,Jones,Patricia,Product Management,57134.62
+5024,Martin,Liam,Marketing,44353.27
+414,Brown,Michael,Sales,106600.66
+2459,Moore,Evelyn,Legal,43558.89
+14349,Lopez,Barbara,Engineering,127093.09
+10922,Scott,Aiden,Product Management,111979.9
+13513,Scott,Sarah,Logistics,102085.66
+14356,White,Charles,Finance,65623.03
+9906,Jones,Aiden,Human Resources,34321.28
+4185,Hill,Aiden,IT,102654.32
+12356,Gonzalez,Evelyn,Sales,66483.36
+10457,Lee,Ethan,Customer Support,33521.96
+4281,Jones,Ethan,IT,77208.11
+14080,Young,John,Operations,139244.0
+15470,Allen,Sarah,Logistics,52947.68
+5635,Thompson,Mia,Sales,71090.65
+3992,Thomas,Mason,Logistics,116651.39
+12042,Walker,Susan,Customer Support,86502.66
+1109,Scott,Liam,Sales,39564.08
+1888,Sanchez,Jennifer,Marketing,110189.27
+6171,Ramirez,Emma,Marketing,105443.33
+12166,Hernandez,Harper,IT,38393.18
+4329,Williams,Amelia,Marketing,113569.07
+14678,Ramirez,John,Product Management,122542.42
+6210,Jackson,Ava,IT,113986.13
+7491,Lopez,Elizabeth,Human Resources,50980.46
+14951,Gonzalez,Harper,Product Management,46236.3
